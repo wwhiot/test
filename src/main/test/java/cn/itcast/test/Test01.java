@@ -44,6 +44,6 @@ public class Test01 {
         tUser.setPassword("456");
         userMapper.updateByPrimaryKey(tUser);
         //update t_user set name = ? ,password = ? where id = ?
-
+        System.out.println("wwh123");
     }
 }
